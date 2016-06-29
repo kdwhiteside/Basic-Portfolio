@@ -1,26 +1,43 @@
 body {
-margin: 0;
-padding: 0;
-background-image: url("../images/cork-wallet/cork-wallet.png");
+background-image: url("../images/concrete_seamless/concrete_seamless.png");
 font-size: 100%;
+width: auto;
+overflow: auto;
 }
 
 h1{
 	font-size: 2.5em;
 	font-weight: bold;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 h2{
-	font-size: 1.875em;
+	font-size: 1.5em;
 	font-weight: bold;
 	color: #4aaaa5;
 	overflow: auto;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+#headerline{
+	background-color: #ffffff;
+	margin: 0;
+	width: auto;
+	height: 100px;
+	border-bottom: 2px solid #cccccc;
+	margin:auto;
+}
+
+#headerdiv{
+	background-color: #ffffff;
+	margin: auto;
+	width:960px;
+	height: 100px;
+	border-bottom: 2px solid #cccccc;
+}
 
 #header{
 	position: relative;
-	left:173px;
 	margin: 0;
 	float:left;
 	width:278px;
@@ -30,18 +47,55 @@ h2{
 	background-color: #4aaaa5;
 	text-align: center;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	
 }
+
+#headertext{
+	padding: 30px 0;
+}
+
+
+#navbox{
+	position: relative;
+	width: 270px;
+	height: 100px;
+	float: right;
+}
+}
+
+nav{
+	height: 100px;
+
+}
+
 #nav{
-	color:#777777;
+	
 	background-color: #ffffff;
 	position: relative;
-	left: 50%;
+	top: 40%;
+	width: 270px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+nav > a{
+	padding: 0px 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 1.2em;
+	color:#777777;
+	float: right;
+}
+
+#midnav{
+	border-right: 1px solid #dddddd;
+	border-left:1px solid #dddddd;
 }
 
 #container{
-	border-top: 2px solid #cccccc;
-	margin: 0px 0px;
+	position: relative;
+	margin: auto;
+	top:44px;
+	width: 960px;
 }
 
 .clearfix {
@@ -52,49 +106,67 @@ h2{
 	width: auto;
 	height: 200px;
 	float: left;
+	padding-right: 15px;
 }
 
-.resize{
-	height: 64px;
-	width: auto;
-}
-#headerdiv{
+
+
+
+
+#mainbiocontainer{
+	position: relative;
+	width: 650px;
+	height: 530px;
 	background-color: #ffffff;
-	margin: 0;
-	width:100%;
-	height: 100px;
+	float:left;
+	border:1px solid #dddddd;
 
 }
 
 #about{
 	color: #4aaaa5;
-	font-size: 24px;
+	padding: 30px 30px;
 
 }
 
 #mainbio{
-	position: relative;
-	left:175px;
-	top: 44px;
-	width: 690px;
-	height: 530px;
-	background-color: #ffffff;
-	float:left;
-	padding-left: 32px;
-	padding-right: ;
-	border:2px solid #cccccc;;
+	margin: 0px 30px;
+	padding:30px 0px;
+	border-top: 3px solid #dddddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 150%;
+	font-size: 1.2em;
+
 }
 
 #aside{
-	position: relative;
-
-	width:300px;
+	position: absolute;
+	right: 0;
+	width:270px;
 	background-color: #ffffff;
-	height: 220px;
-	border:2px solid #cccccc
+	height: 180px;
+	border:1px solid #dddddd;
 
 }
 
-#box{
-	margin: 50px 40px;
+.box1{
+	padding: 20px 0px 20px 20px;
+	float: top;
+}
+
+.resize{
+	height: 64px;
+	width: auto;
+	color: #4aaaa5;
+}
+
+.box2{
+	border-top: 1px solid #dddddd;
+	margin: 0px 20px;
+	padding: 20px 0px;
+}
+
+.picpadding{
+	margin-right: 10px;
 }
