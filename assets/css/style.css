@@ -2,13 +2,25 @@ body {
 margin: 0;
 padding: 0;
 background-image: url("../images/cork-wallet/cork-wallet.png");
+font-size: 100%;
 }
 
+h1{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 1.875em;
+	font-weight: bold;
+	color: #4aaaa5;
+	overflow: auto;
+}
 
 
 #header{
 	position: relative;
-	left:112px;
+	left:173px;
 	margin: 0;
 	float:left;
 	width:278px;
@@ -54,14 +66,35 @@ background-image: url("../images/cork-wallet/cork-wallet.png");
 
 }
 
+#about{
+	color: #4aaaa5;
+	font-size: 24px;
+
+}
+
 #mainbio{
 	position: relative;
-	left:112px;
-	top: 45px;
-	width: 650px;
+	left:175px;
+	top: 44px;
+	width: 690px;
+	height: 530px;
 	background-color: #ffffff;
-	float: left;
+	float:left;
+	padding-left: 32px;
+	padding-right: ;
+	border:2px solid #cccccc;;
 }
 
 #aside{
+	position: relative;
+
+	width:300px;
+	background-color: #ffffff;
+	height: 220px;
+	border:2px solid #cccccc
+
+}
+
+#box{
+	margin: 50px 40px;
 }
