@@ -6,31 +6,43 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<div>
-		<header>
-			<h1>Kevin Whiteside</h1>
-		</header>
-		<nav>
-		<a href="index.html">About</a>
-		<a href="#">Contact</a>
-		<a href="portfolio.html">Portfolio</a>
-		</nav>
+	<div id="headerline" class="clearfix">
+		<div id="headerdiv" class="clearfix">
+			<header id="header" class="clearfix">
+				<h1 id="headertext">Your Name</h1>
+			</header>
+			<div id="navbox">
+				<nav id="nav">
+					<a href="contact.html">Contact</a>
+					<a id=midnav href="portfolio.html">Portfolio</a>
+					<a href="#">About</a>
+				</div>
+			</nav>
+		</div>
 	</div>
-	<div>
-		<article>
-			<section>
-				<h2>Contact</h2>
-			</section>
-		</article>
-			<p>Name</p>
-			<p>Email</p>
-			<p>Message</p>
-		<article>
-			<a href="https://github.com/kdwhiteside"><img src="assets/images/githubcat.png"></a>
-			<a href="https://facebook.com/kevindwhiteside"><img src="assets/images/facebooklogo.png"></a>
-			<a href="https://stackoverflow.com"><img src="assets/images/stackoverflow.png"></a>
-		</article>
+	<div id="container" class="clearfix">
+		<section class=clearfix id="mainbiocontainer">
+			<article id=about>
+				<section>
+					<h2>Contact</h2>
+				</section>
+			</article>
+			<article id="mainbio">
+				<p>Name</p>
+				<p>Email</p>
+				<p>Message</p>
+			</article>
+		</section>
+		<aside id=aside class=clearfix>
+			<div class=box1>
+				<h2>Connect with Me</h2>
+			</div>
+			<div class="box2">
+				<a href="https://github.com/kdwhiteside"><img CLASS="resize picpadding" src="assets/images/githubcat.png"></a>
+				<a href="https://facebook.com/kevindwhiteside"><img CLASS="resize picpadding" src="assets/images/facebooklogo.png"></a>
+				<a href="https://stackoverflow.com"><img CLASS=resize src="assets/images/stackoverflow.png"></a>
+			</div>
+		</aside>
 	</div>
-
 </body>
 </html>
