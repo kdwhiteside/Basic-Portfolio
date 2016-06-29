@@ -115,7 +115,7 @@ nav > a{
 #mainbiocontainer{
 	position: relative;
 	width: 650px;
-	height: 530px;
+	height: 100%;
 	background-color: #ffffff;
 	float:left;
 	border:1px solid #dddddd;
@@ -176,4 +176,9 @@ height: 200px;
 position: relative;
 float: left;
 margin: 10px;
+}
+
+.img {
+width: 275px;
+height: 200px;
 }
